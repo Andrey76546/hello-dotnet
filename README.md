@@ -80,13 +80,15 @@ Workflow [.NET CI/CD](https://github.com/Andrey76546/hello-dotnet/actions/workfl
 
 - Репозиторий: [Andrey76546/hello-dotnet](https://github.com/Andrey76546/hello-dotnet)
 - Workflow: [.NET CI/CD](https://github.com/Andrey76546/hello-dotnet/actions/workflows/ci.yml)
+- Успешный CI на `main`: [.NET CI/CD #1](https://github.com/Andrey76546/hello-dotnet/actions/runs/41417858502)
+- Успешная релизная сборка: [.NET CI/CD #2](https://github.com/Andrey76546/hello-dotnet/actions/runs/41417970176)
 - Release: [v0.1.0](https://github.com/Andrey76546/hello-dotnet/releases/tag/v0.1.0)
 
 ## Настоящие скриншоты
 
-![Успешные тесты, публикация и запуск бинарника](screenshots/01-tests-and-publish.png)
+![Успешные тесты и запуск self-contained бинарника](screenshots/01-tests-and-publish.png)
 
-На снимке показаны реальные локальные тесты, публикация и запуск Linux-бинарника.
+На снимке показаны реальные локальные тесты и запуск Linux-бинарника в чистом Debian без установленного .NET.
 
 ![Успешный workflow .NET CI/CD](screenshots/02-github-actions.png)
 
